@@ -1,0 +1,39 @@
+- title: "NN-CX"
+  image: /assets/images/icons/cpu-gpu.png
+  alt: "NN-CX Icon"
+  icon: "fas fa-microchip"
+  url: "https://github.com/your-username/nn-cx"
+  btn_label: "View Project"
+  btn_class: "btn--primary"
+  description: >
+    A custom Python/C++/CUDA ML research framework with a tensor library,
+    CuPy GPU backend, ONNX pipeline, graph surgery tools, and hardware-aware profiling.
+
+- title: "WIDERFace Detector"
+  image: /assets/images/icons/camera.png
+  alt: "Camera icon"
+  icon: "fas fa-camera"
+  url: "https://github.com/your-username/widerface-detection"
+  btn_label: "View Repo"
+  btn_class: "btn--primary"
+  description: >
+    End-to-end face detection training pipeline with ONNX export, Jetson acceleration,
+    and custom visualization tools.
+
+- title: "Speculative Decoding Client"
+  icon: "fas fa-bolt"
+  url: "https://github.com/your-username/speculative-decoding"
+  btn_label: "View Repo"
+  btn_class: "btn--primary"
+  description: >
+    HuggingFace Transformers client for streaming low-latency generation through
+    speculative decoding and token-by-token updates.
+
+- title: "Music Production Toolkit"
+  icon: "fas fa-music"
+  url: "https://github.com/your-username/music-tools"
+  btn_label: "View Tools"
+  btn_class: "btn--primary"
+  description: >
+    Collection of MIDI alignment utilities, Cubase helpers, and tone presets
+    used for piano and guitar production.

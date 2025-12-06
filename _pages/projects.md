@@ -2,38 +2,39 @@
 layout: single
 title: "Projects"
 permalink: /projects/
-toc: true
-toc_label: "Contents"
+toc: false
 ---
 
-# 🚀 Projects
+# 🚀 Featured Projects
 
-## 🧠 NN-CX — Custom Tensor & ML Research Framework
-A hybrid **C++/Python tensor library** with CPU/CuPy backends, ONNX export tooling, and performance profiling.
+{% include feature_row id="projects" type="left" %}
+
+---
+
+# 🔍 All Projects (Detailed Descriptions)
+
+## NN-CX — Custom Tensor Library & ML Research Framework
+A hybrid **C++/Python** system with CPU/CuPy backends, ONNX export pipeline, and hardware-aware performance tools.
 
 🔗 GitHub: <https://github.com/your-username/nn-cx>
 
 ---
 
-## 📸 WIDERFace Detection Pipeline
-Full training pipeline + ONNX export + Jetson optimization + visualization toolkits.
+## WIDERFace Detection Pipeline
+Training + visualization + ONNX + Jetson optimized deployment.
 
-🔗 GitHub: <your link>
-
----
-
-## 🧩 Speculative Decoding Client
-Streaming token generation using HF Transformers for low-latency inference.
-
-🔗 GitHub: <your link>
+🔗 GitHub: <https://github.com/your-username/widerface-detection>
 
 ---
 
-## 🎛 Music Production Tools
-Cubase-based original tools for tempo alignment, MIDI workflows, and mixing presets.
+## Speculative Decoding Client
+A streaming inference client using speculative decoding with HuggingFace APIs.
 
-🔗 GitHub: <your link>
+🔗 GitHub: <https://github.com/your-username/speculative-decoding>
 
 ---
 
-More projects coming soon.
+## Music Production Toolkit
+Tools for tempo alignment, MIDI workflows, presets for FP-30X and GX-100.
+
+🔗 GitHub: <your link>
