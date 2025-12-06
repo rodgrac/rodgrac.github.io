@@ -8,7 +8,7 @@ description: >-
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-url: "https://your-username.github.io"
+url: "https://rodgrac.github.io"
 baseurl: ""
 
 plugins:
