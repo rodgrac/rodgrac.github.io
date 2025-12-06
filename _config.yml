@@ -19,7 +19,6 @@ plugins:
   - jekyll-feed
 
 # Theme Settings
-theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "dark"
 
 search: true
