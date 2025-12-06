@@ -1,0 +1,22 @@
+title: "Rod Grac — Portfolio"
+description: "ML Engineer | Systems Builder | Musician"
+theme: jekyll-theme-chirpy
+baseurl: ""
+url: "https://rodgrac.github.io"
+
+lang: en
+timezone: Asia/Kolkata
+
+github:
+  username: rodgrac
+
+social:
+  name: Rod Grac
+  email: your-email@example.com
+  links:
+    - https://github.com/your-username
+    - https://www.linkedin.com/in/your-linkedin
+    - https://www.youtube.com/your-channel
+    - https://open.spotify.com/artist/your-profile
+
+paginate: 6
