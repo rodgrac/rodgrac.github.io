@@ -49,6 +49,3 @@ collections:
     permalink: /:title/
 
 paginate: 6
-
-feature_row:
-  projects: _data/projects.yml

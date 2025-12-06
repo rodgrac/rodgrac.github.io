@@ -7,7 +7,7 @@ toc: false
 
 # 🚀 Featured Projects
 
-{% include feature_row id="projects" type="left" %}
+{% include feature_row id="projects" %}
 
 ---
 
