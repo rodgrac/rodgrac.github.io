@@ -3,6 +3,30 @@ layout: single
 title: "Projects"
 permalink: /projects/
 toc: false
+feature_row:
+  - title: "NN-CX"
+    icon: "fas fa-microchip"
+    url: "https://github.com/your-username/nn-cx"
+    btn_label: "View Project"
+    btn_class: "btn--primary"
+    excerpt: >
+      A custom Python/C++/CUDA ML research framework with tensor library,
+      ONNX export, GPU backend and performance tools.
+
+  - title: "WIDERFace Detector"
+    icon: "fas fa-camera"
+    url: "https://github.com/your-username/widerface-detection"
+    btn_label: "Repository"
+    btn_class: "btn--primary"
+    excerpt: >
+      Face detection pipeline — training, ONNX export, Jetson deployment.
+
+  # ... add more projects similarly
+
+---
+
+{% include feature_row %}
+
 ---
 
 # 🚀 Featured Projects
