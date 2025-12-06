@@ -1,22 +1,52 @@
 title: "Rod Grac — Portfolio"
-description: "ML Engineer | Systems Builder | Musician"
-theme: jekyll-theme-chirpy
+email: your-email@example.com
+description: >-
+  ML Engineer • Systems Builder • Musician  
+  Portfolio · Projects · Music · Notes
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+url: "https://your-username.github.io"
 baseurl: ""
-url: "https://rodgrac.github.io"
 
-lang: en
-timezone: Asia/Kolkata
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 
-github:
-  username: rodgrac
+# Theme Settings
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark"
 
-social:
-  name: Rod Grac
-  email: your-email@example.com
+search: true
+
+# Author Profile (shows in sidebar)
+author:
+  name: "Rod Grac"
+  avatar: "/assets/images/profile.jpg"
+  bio: "ML Engineer · Systems Designer · Musician"
   links:
-    - https://github.com/your-username
-    - https://www.linkedin.com/in/your-linkedin
-    - https://www.youtube.com/your-channel
-    - https://open.spotify.com/artist/your-profile
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/your-username"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/your-linkedin"
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url: "https://youtube.com/your-channel"
+    - label: "Spotify"
+      icon: "fab fa-spotify"
+      url: "https://open.spotify.com/artist/your-profile"
+
+# Navigation menu (loaded from _data/navigation.yml)
+collections:
+  pages:
+    output: true
+    permalink: /:title/
 
 paginate: 6
